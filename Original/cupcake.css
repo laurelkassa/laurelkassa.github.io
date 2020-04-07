@@ -1,0 +1,166 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #CCCCCC;
+    font-family: sans-serif;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    padding: 17px 0;
+    text-align: center;
+    background: #0EC8C7;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    padding: 17px 40px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #EC3632;
+}
+
+section {
+    background-color: #EC3632;
+    overflow: auto;
+}
+
+aside {
+    float: center;
+    padding: 3%;
+    width: 12%;
+    background: transparent;
+}
+
+aside ul {
+    margin: 20px 0;
+    padding: 0;
+   
+}
+
+aside li {
+    margin: 20px 0;
+}
+
+aside a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+}
+
+aside a:hover {
+    background-color: #0EC8C7;
+}
+
+article {
+    padding: 6%;
+    width: 70%;
+    float: right;
+    background: #FFFFFF;
+}
+
+footer {
+    background-color: #0EC8C7;
+    padding: 25px 10px;
+    text-align: center;
+    clear: both;
+    font-size: 11px;
+}
+
+footer p {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer li {
+    display: inline;
+}
+
+.cupcake {
+    float: right;
+    width: 50%;
+    margin: 0 0 10px 10px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    #wrap {
+        width: 100%;
+    }
+
+    nav a,
+    aside a,
+    footer a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    nav ul,
+    nav li,
+    aside ul,
+    aside li {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    aside,
+    article {
+        float: none;
+    }
+
+    aside {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    article {
+        width: 95%;
+    }
+
+    .cupcake {
+        float: none;
+        width: 95%;
+    }
+
+}
