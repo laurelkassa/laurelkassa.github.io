@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Slideshow</title>
+    
+   <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    
+    
+    
+    
+</head>    
+    
+    
+    
+    
+<body>
+    <div id="wrap">
+        <header>Laurel's Favorite Things</header>
+        
+        <nav></nav>
+        
+        
+        <section> 
+            <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/home.jpg" data-thumb="images/home.jpg" alt="Home" />
+                <a href="http://dev7studios.com"><img src="images/vball.jpg" data-thumb="images/vball.jpg" alt="Vball" title="Volleyball" /></a>
+                <img src="images/lake.jpg" data-thumb="images/lake.jpg" alt="Lake" data-transition="slideInLeft" />
+                <img src="images/fruit.jpg" data-thumb="images/fruit.jpg" alt="Fruit" title="#Fruit" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+</section>   
+        
+<footer>These are a few of my favorite things. 
+        </footer>        
+    
+    
+    </div>
+    
+    <!--Close wrap-->
+     <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>    
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+</html>
