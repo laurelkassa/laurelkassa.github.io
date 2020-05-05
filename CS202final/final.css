@@ -1,0 +1,237 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Oswald',
+        sans-serif;
+}
+
+#wrap {
+    width: 100%;
+}
+
+header,
+nav,
+footer {
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: pink;
+}
+
+nav {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: aliceblue;
+}
+
+section {
+    background-color: aliceblue;
+    overflow: auto;
+}
+
+
+footer {
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    font-size: 14px;
+
+}
+
+footer ul {
+    margin: 10px;
+    list-style-type: none;
+}
+
+footer li {
+    display: inline;
+}
+
+aside {
+    width: 20%;
+    background-color: pink;
+    float: left;
+    padding: 10px;
+}
+
+article {
+    width: 68%;
+    background-color: burlywood;
+    float: left;
+    padding: 2%;
+}
+
+.lolos {
+    width: 75%;
+    float: right;
+    margin 0 0 10px 10px;
+    padding: 10px;
+}
+
+.granola {
+    width: 60%;
+    float: right;
+    margin 0 0 10px 10px;
+    padding: 10px;
+}
+
+.yum {
+    width: 70%;
+    float: right;
+    margin 0 0 10px 10px;
+    padding: 10px;
+}
+
+.food {
+    width: 65%;
+    float: right;
+    margin 0 0 10px 10px;
+    padding: 10px;
+}
+
+.sweets {
+    width: 55%;
+    float: right;
+    margin 0 0 10px 10px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3.0m;
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background-color: yellow;
+    }
+
+    #wrap {
+        width: 99%;
+    }
+
+    nav a,
+    footer a {
+        display: block;
+        width: 100%;
+        padding: 20px, 0;
+    }
+
+    nav ul,
+    nav li {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    aside,
+    article {
+        float: none;
+        width: 96%;
+    }
+
+    .golfer {
+        float: none;
+        width: 96%;
+    }
+
+    .golfswing {
+        float: none;
+        width: 96%;
+    }
+
+
+    .driving {
+        float: none;
+        width: 96%;
+    }
+
+    .chipping {
+        float: none;
+        width: 96%;
+    }
+
+    .putting {
+        float: none;
+        width: 96%;
+    }
+
+    .embed-container {
+        position: relative;
+        padding-bottom: 55%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    .embed-container iframe,
+    .embed-container object,
+    .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    form {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    fieldset {
+        background-color: #ddd;
+        border-radius: 1em;
+    }
+
+    legend {
+        font-size: 30px;
+        font-family: Georgia, serif;
+        background-color: navy;
+        font-weight: bold;
+        color: white;
+        padding: 5px 10px;
+    }
+
+    textarea {
+        width: 50%;
+    }
+
+    input {}
+
+    .button {
+        background-color: navy;
+        color: white;
+        font-size: 1.5em;
+        font-variant: small-caps;
+    }
+}
